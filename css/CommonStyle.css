@@ -54,7 +54,7 @@ header nav ul li > i {
 header nav ul li .xiala {
   width: 100vw;
   height: 40px;
-  box-shadow: 0 2px 3px 1px #B6B6B6 inset;
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.3) inset;
   background: rgba(255, 255, 255, 0.4);
   position: absolute;
   top: 84px;

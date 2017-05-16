@@ -288,6 +288,28 @@
 .content_gywm .right .top_index i {
   color: #6DB634;
 }
+.content_gywm .right .main {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  float: left;
+}
+.content_gywm .right .main h3 {
+  font-size: 25px;
+  height: 25px;
+  border-left: 2px solid #6DB634;
+  padding-left: 8px;
+  color: #6DB634;
+  line-height: 25px;
+  font-family: "宋体";
+  margin-bottom: 20px;
+}
+.content_gywm .right .main p {
+  font-size: 14px;
+  color: #909090;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
 /* 公司业绩 */
 .content_gsyj {
   width: 1200px;
@@ -348,6 +370,7 @@
   height: auto;
   width: 100%;
   text-align: right;
+  line-height: 14px;
   font-size: 14px;
   color: #9E9E9E;
   padding: 25px 0 10px;
@@ -424,6 +447,7 @@
   height: 14px;
   width: 100%;
   text-align: right;
+  line-height: 14px;
   font-size: 14px;
   color: #9E9E9E;
   padding: 25px 0 10px;
@@ -440,6 +464,7 @@
 .content_lxwm .content .main {
   width: 100%;
   height: 330px;
+  margin-top: 20px;
 }
 .content_lxwm .content .main .left {
   width: 460px;
@@ -527,6 +552,7 @@
   height: 14px;
   width: 100%;
   text-align: right;
+  line-height: 14px;
   font-size: 14px;
   color: #9E9E9E;
   padding: 25px 0 10px;
@@ -634,5 +660,134 @@
 .zhezhao .content_tanchu .message h3 {
   font-size: 18px;
   color: #6DB634;
+  margin-bottom: 40px;
+}
+.zhezhao .content_tanchu .message p {
+  font-size: 14px;
+  color: #222222;
+  line-height: 30px;
+}
+.zhezhao .content_tanchu .message ul {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 40px;
+}
+.zhezhao .content_tanchu .message ul h2 {
+  font-size: 16px;
+  color: #222222;
+  line-height: 30px;
+}
+.zhezhao .content_tanchu .message ul li {
+  font-size: 14px;
+  color: #909090;
+  line-height: 30px;
+}
+/* 新闻动态 */
+.content_xwdt {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: 30px auto 60px;
+}
+.content_xwdt .left {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+  float: left;
+}
+.content_xwdt .left h3 {
+  width: 150px;
+  height: 50px;
+  background: #6DB634;
+  color: #FFFFFF;
+  padding: 15px 20px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.content_xwdt .left h3 img {
+  width: 22px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.content_xwdt .left ul {
+  width: 150px;
+  height: auto;
+  padding: 0 25px 30px;
+  background: #F5F5F5;
+}
+.content_xwdt .left ul li {
+  width: 100px;
+  line-height: 48px;
+  border-bottom: 1px solid #DEDEDE;
+  text-align: center;
+}
+.content_xwdt .left ul li a {
+  color: #666666;
+  line-height: 48px;
+}
+.content_xwdt .left ul li:hover {
+  border-bottom: 1px solid #6DB634;
+}
+.content_xwdt .left ul li:hover > a {
+  color: #6DB634;
+  font-weight: 550;
+}
+.content_xwdt .right {
+  width: calc(100% - 170px);
+  height: auto;
+  float: left;
+}
+.content_xwdt .right .top_index {
+  height: auto;
+  width: 100%;
+  text-align: right;
+  line-height: 14px;
+  font-size: 14px;
+  color: #9E9E9E;
+  padding: 25px 0 10px;
+}
+.content_xwdt .right .top_index img {
+  width: 10px;
+  height: 14px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.content_xwdt .right .top_index i {
+  color: #6DB634;
+}
+.content_xwdt .right .main {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+.content_xwdt .right .main ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.content_xwdt .right .main ul li {
+  width: 100%;
+  height: 140px;
+  padding: 20px 22px 15px;
+}
+.content_xwdt .right .main ul li img {
+  width: 140px;
+  height: 105px;
+  float: left;
+  margin-right: 20px;
+}
+.content_xwdt .right .main ul li h3 {
+  float: left;
+  font-size: 16px;
+  color: #404040;
+  margin: 12px 0 15px;
+}
+.content_xwdt .right .main ul li p {
+  width: calc(100% - 160px);
+  font-size: 14px;
+  line-height: 24px;
+  color: #909090;
+  float: left;
 }
 /*# sourceMappingURL=publik.css.map */
